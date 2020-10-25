@@ -738,6 +738,8 @@ body{
         animation-duration: 0.5s;
         display: none;
         transition: 0.3s;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
     }
 
     .secondaryNavbar ul{
