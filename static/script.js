@@ -109,3 +109,20 @@ $(function(){
         });
     })
 })
+
+
+
+$(function() {
+    $(window).scroll(function() {
+        if(window.matchMedia("(max-width: 600px)").matches){
+            // nothing
+        } else{
+            var x = $(".secondaryNavbar").position();
+            if( x.top > 76){
+                $(".secondaryNavbar").css({"box-shadow" : "0 7px 12px  #00000015"})
+            }else{
+                $(".secondaryNavbar").css({"box-shadow" : "0 7px 12px  #00000000"})
+            }
+        }
+    })
+})
