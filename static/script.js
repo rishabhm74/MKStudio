@@ -119,7 +119,7 @@ $(function() {
         } else{
             var x = $(".secondaryNavbar").position();
             if( x.top > 76){
-                $(".secondaryNavbar").css({"box-shadow" : "0 7px 12px  #00000015"})
+                $(".secondaryNavbar").css({"box-shadow" : "0 7px 12px  #00000010"})
             }else{
                 $(".secondaryNavbar").css({"box-shadow" : "0 7px 12px  #00000000"})
             }
